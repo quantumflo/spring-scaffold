@@ -10,7 +10,7 @@ public class GameController {
     private Coach myCoach;
 
     @Autowired
-    public GameController(@Qualifier("footballCoach") Coach newCoach ) {
+    public GameController(@Qualifier("cricketCoach") Coach newCoach ) {
         myCoach = newCoach;
     }
     @GetMapping("/dailyWorkout")
