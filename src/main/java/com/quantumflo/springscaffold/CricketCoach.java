@@ -5,7 +5,7 @@ import jakarta.annotation.PreDestroy;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("cricketCoaching")
 @Lazy
 public class CricketCoach implements Coach {
 
